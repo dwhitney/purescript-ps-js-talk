@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  background-color:black;
+  height: 100%;
+  width: 100%;
+}
+
+#main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.chart{
+  background-color: #222;
+  display: flex;
+  margin: 2.5px;
+  max-width: 350px;
+  min-width: 350px;
+  max-height: 350px;
+  min-height: 350px;
+}
