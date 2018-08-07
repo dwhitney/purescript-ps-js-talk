@@ -14,6 +14,19 @@
   * rm src/Main.purs
   * create `src/Nav.purs` and `src/Nav.js`
   * implement `Nav.js` from the javascript branch in CommonJS
+    * ```javascript
+      import React from "react";
+
+      const Nav = props => (
+        <nav>
+          <h1>Chart-o-Matic</h1>
+          <button onClick={() => props.addChart()} />
+        </nav>
+      );
+      ```
+
+export default Nav;
+
 * Step 2: refactor to React.createElment('button', props, children);
 * Step 3: refactor to React.createElement(name, props, children);
 * Step 4: refactor with Fn3, runFn3 and JSX integration
