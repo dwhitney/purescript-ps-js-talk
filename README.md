@@ -6,8 +6,8 @@
   * Importing Values
   * Importing Types
 * Demo application
-* Walk through JavaScript
-* Step 1: single foreign function and data type 
+* Walk through JavaScript (`master`)
+* Step 1: single foreign function and data type (`step-1`)
 * Step 2: refactor to React.createElment('button', props, children);
 * Step 3: refactor to React.createElement(name, props, children);
 * Step 4: refactor with Fn3, runFn3 and JSX integration

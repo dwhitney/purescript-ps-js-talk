@@ -12,10 +12,8 @@ const chartTypes = [
   "line",
   "stacked_line_area",
   "step_line",
-  "theme_river",
   "funnel",
   "radar",
-  "sunburst",
   "graph",
   "punch_card",
   "stock_fan"
