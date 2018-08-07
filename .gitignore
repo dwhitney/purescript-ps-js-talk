@@ -7,7 +7,6 @@
 /.psc*
 /.purs*
 /.psa*
-build
-.cache
+/build
+/.cache
 /dist
-yarn-error.log

@@ -6,8 +6,14 @@
   * Importing Values
   * Importing Types
 * Demo application
-* Walk through JavaScript (`master`)
-* Step 1: single foreign function and data type (`step-1`)
+* Walk through JavaScript (branch: `javascript`)
+* Step 1: single foreign function and data type (branch: `step-1`)
+  * npm install pulp bower purescript --save-dev
+  * npx pulp init --force
+  * edit package.json and add `pulp build && ` to the begining of the build step
+  * rm src/Main.purs
+  * create `src/Nav.purs` and `src/Nav.js`
+  * implement `Nav.js` from the javascript branch in CommonJS
 * Step 2: refactor to React.createElment('button', props, children);
 * Step 3: refactor to React.createElement(name, props, children);
 * Step 4: refactor with Fn3, runFn3 and JSX integration

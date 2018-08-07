@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from "react";
-import Nav from "./Nav";
 import SampleChart from "./SampleChart";
 
 const chartTypes = [
@@ -37,7 +36,6 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <Nav addChart={this.addChart} />
         <main>
           {this.state.charts.map((chart, i) => (
             <SampleChart type={chart} key={i} />
