@@ -33,4 +33,6 @@ export default Nav;
   * bower install purescript-functions --save
 * tour of purescript-react-basic
 * Further reading
+  * Nullable
+  * unsafeCoerce
 
