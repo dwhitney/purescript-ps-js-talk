@@ -1,18 +1,21 @@
 const React = require("react");
 
-function nav(props) {
-  return React.createElement("nav", null, [
-    React.createElement("h1", null, "Chart-o=Matic"),
-    React.createElement(
-      "button",
-      {
-        onClick: function() {
-          props.addChart();
-        }
-      },
-      null
-    )
-  ]);
+function _null() {
+  return null;
 }
 
-exports.nav = nav;
+function unsafeCoerce(a) {
+  return a;
+}
+
+function createElement(name) {
+  return function(props) {
+    return function(children) {
+      return React.createElement(name, props, children);
+    };
+  };
+}
+
+exports.createElement = createElement;
+exports._null = _null;
+exports.unsafeCoerce = unsafeCoerce;

@@ -29,6 +29,7 @@
 export default Nav;
 
 * Step 2: refactor to React.createElement(name, props, children);
+  * 
 * Step 3: refactor with Fn3, runFn3 and JSX integration
 * tour of purescript-react-basic
 * Further reading
